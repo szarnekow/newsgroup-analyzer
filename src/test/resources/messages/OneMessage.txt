@@ -1,0 +1,29 @@
+Path: some.path
+From: A B <noreply@acme.org>
+Newsgroups: some.newsgroup
+Subject: Some subject
+Date: Wed, 13 Nov 2013 05:15:48 -0500
+Organization: Some Organization
+Lines: 13
+Message-ID: <l5vjgk$4a1$2@acme.org>
+References: <l5e4ck$cln$2@acme.org>
+Reply-To: A B <noreply@acme.org>
+NNTP-Posting-Host: www.acme.host
+Content-Type: text/plain; charset=utf-8; format=flowed
+X-Trace: acme.com 1384337748 4417 172.30.2.7 (13 Nov 2013 10:15:48 GMT)
+X-Complaints-To: complaints@acme.com
+NNTP-Posting-Date: Wed, 13 Nov 2013 10:15:48 +0000 (UTC)
+
+Thanks man, that does work.
+
+
+@Annotation
+String s;
+
+void dummy() {
+	String s = "";
+	s.toString();
+	s.toString();
+	s.toString();
+}
+
